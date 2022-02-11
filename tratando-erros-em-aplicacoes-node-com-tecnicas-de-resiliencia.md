@@ -18,6 +18,24 @@ Enfim, a lista continua e ela é imensa. Tudo que pode dar errado em seu sistema
 
 A questão é que não existe uma fórmula mágica. É preciso tentar se precaver dos problemas conhecidos e, por meio de diferentes técnicas de monitoramento e testes, atuar em cima de problemas desconhecidos assim que eles forem descobertos, antes que se tornem monstros impossíveis de conter.
 
+## Como evitar que minha aplicação falhe
+### Detectando pontos únicos de falha
+### Testes de código, resiliência, carga e de caos
+### Detecção e mitigação de falhas de forma automática
+### Procedimentos padronizados e documentados para ação em catástrofes
+
+## Fallbacks, falhando com elegância
+### O que é uma política de fallback
+
+## Fallbacks, do macro ao micro
+### Fallbacks no fluxo do produto
+### Fallbacks na sua arquitetura
+### Fallbacks na sua aplicação
+#### Retry
+#### Circuit Breaker
+#### Timeout
+
+## Resumindo, tratamento de erros é difícil, mas possível
 
 # Referências
 - [1] [Transient fault handling (Microsoft Docs)](https://docs.microsoft.com/en-us/azure/architecture/best-practices/transient-faults)
@@ -25,3 +43,5 @@ A questão é que não existe uma fórmula mágica. É preciso tentar se precave
 - [2] [Transient fault handling and proactive resilience engineering (Polly Wiki)](https://github.com/App-vNext/Polly/wiki/Transient-fault-handling-and-proactive-resilience-engineering)
 
 - [3] [Cockatiel Readme](https://github.com/connor4312/cockatiel#readme)
+
+- [4] [Microsserviços prontos para produção](https://www.amazon.com.br/Microsservi%C3%A7os-Prontos-Para-Produ%C3%A7%C3%A3o-Padronizados/dp/8575226215)
